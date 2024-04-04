@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Allerta+Stencil&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Allerta+Stencil&family=Bungee+Spice&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.topContent{
+    color: aliceblue;
+    position: relative;
+}
+.topContent__container{
+    position: absolute;
+    top:400px;
+    right: 350px;
+}
+.topContent__container > h1{
+font-family: "Chakra Petch";
+letter-spacing: 10px;
+color: rgb(189, 186, 186);
+text-shadow: 0px 0px 10px  rgb(228, 85, 29);
+
+}
+.topContent__container > p{
+    letter-spacing: 8px;
+    word-spacing: 3px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 30 px;
+    font-size: medium;
+    font-family: "Allerta Stencil";
+    color: rgb(160, 195, 212);
+    text-shadow: 0px 0px 10px  rgb(199, 198, 198);
+
+}
+.topContent__container >a> button{
+    text-align: center;
+    border:none;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+ cursor: pointer;
+}
+.topContent__DownloadButton{
+    height: 35px;
+    width: 100px;
+    color: rgb(37, 37, 37);
+    background-color: rgb(240, 102, 38);
+    box-shadow: 0px 1px 5px rgb(240, 163, 111);
+
+}
+.topContent__WorkButton{
+    font-size: 13px;
+    font-weight: 500;
+    height: 35px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background:transparent;
+    border: 2px solid rgb(155, 144, 144)!important;
+}
+.topContent__DownloadButton:hover{
+    font-weight: 400;
+    background-color: bisque;
+}
+.topContent__WorkButton:hover{
+    font-weight: 400;
+    background-color: bisque;
+    color: black;
+}
